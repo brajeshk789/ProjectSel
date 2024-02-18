@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserTesting">
+  <test  name="Test">
+	  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="day5_19012024.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CrossBrowserTesting -->
